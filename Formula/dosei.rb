@@ -4,4 +4,9 @@ class Dosei < Formula
   url "https://github.com/doseiai/engine/archive/refs/tags/0.0.9.tar.gz"
   sha256 "4f3294d351498f34821bfaf3fc938a922e68bb76c2676be9fbb8ab15e4759c45"
   license "Apache-2.0"
+
+  def install
+    system "make"
+  end
+
 end
