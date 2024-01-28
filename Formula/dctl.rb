@@ -1,3 +1,8 @@
+# TODO: Automate version update process.
+# Current manual workaround:
+# Retrieve the sha256 hashes of files from this CI step:
+# https://github.com/doseiai/engine/blob/main/.github/workflows/cli-ci-cd.yaml#L84
+
 class Dctl < Formula
   desc "Command Line Interface (CLI) for Dosei."
   homepage "https://dosei.ai"
