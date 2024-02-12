@@ -8,21 +8,21 @@ class Dctl < Formula
   desc "Command Line Interface (CLI) for Dosei."
   homepage "https://dosei.ai"
   license "Apache-2.0"
-  version "0.0.15"
+  version "0.0.17"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/doseiai/engine/releases/download/0.0.15/dctl-x86_64-apple-darwin.zip"
-    sha256 "fd4fc23a8749d73ae7cdbfdfb85bac7d37aff7256ffe26ee191b12a8e1ca5915"
+    url "https://github.com/doseiai/engine/releases/download/0.0.17/dctl-x86_64-apple-darwin.zip"
+    sha256 "bbec0bdb45fb7b93ca23759f2cc7920d70bd3e3d4055bb0bb818e227635eda9e"
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/doseiai/engine/releases/download/0.0.15/dctl-aarch64-apple-darwin.zip"
-    sha256 "396ed171c39cd10ad1fd6b6d66d150aa9e8c732e073e84de5c4a19ff3a95d91b"
+    url "https://github.com/doseiai/engine/releases/download/0.0.17/dctl-aarch64-apple-darwin.zip"
+    sha256 "ee3aa500c17e8e27da714d1f88590a2faeb487f2b729861b98548b56c335b850"
   end
 
   if OS.linux?
-    url "https://github.com/doseiai/engine/releases/download/0.0.15/dctl-x86_64-unknown-linux-gnu.zip"
-    sha256 "2160069b9112950debd7aa834b3e154860c2d0b8f34e733707421d55877c6708"
+    url "https://github.com/doseiai/engine/releases/download/0.0.17/dctl-x86_64-unknown-linux-gnu.zip"
+    sha256 "60c42e965cd504c2e093eb5e57a71d755ef434250c924395456bc53d4201c3ff"
   end
 
   def install
