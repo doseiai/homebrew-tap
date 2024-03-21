@@ -22,7 +22,7 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@master
 
       - name: Setup Dosei CLI
-        run: brew install ./Formula/dctl.rb
+        run: brew install ./Formula/dosei.rb
 
-      - name: Test dctl
-        run: dctl --version
+      - name: Test dosei
+        run: dosei --version
